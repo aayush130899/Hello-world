@@ -1,7 +1,8 @@
 def add(x,y):
     return x+y
 def subtract(x,y):
-    pass
+    if x<y:
+        return ERROR
 def multiply(x,y):
     return x*y
     
